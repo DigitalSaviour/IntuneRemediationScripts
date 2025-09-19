@@ -1,5 +1,7 @@
 # Push a Windows product code when it hasn't activated by itself. The code below 
-# is one used for Connect devices **SBS SPECIFIC**.
+# is one used for Connect devices.
+
+# Set $actcode to your own Windows Activation Code
 
 # Author : Lee Burridge 
 # Date   : 04/09/2024
