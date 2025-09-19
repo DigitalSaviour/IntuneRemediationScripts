@@ -1,0 +1,1 @@
+The Get-OfficeKey.ps1 script is deployed as a remediation detection script only and can be used to audit the licenses that you have across a tenancy for Office.

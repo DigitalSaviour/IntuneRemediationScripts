@@ -1,0 +1,1 @@
+The Fix-DeviceName script was developed for a client that had previously allowed users to rename their devices. The Fix-DeviceName.ps1 script will rename the device using a prefix as specified in the script with the $prefix variable and the devices serial number to create a nunique name.

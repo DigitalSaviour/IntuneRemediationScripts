@@ -1,7 +1,7 @@
 # Requires running as Administrator
 
 # Set the prefix for the device name
-$prefix = "CCTCBC-" # Custom prefix for the device name
+$prefix = "PREFIX-" # Custom prefix for the device name
 
 # Ensure the script is run with elevated privileges
 $isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)

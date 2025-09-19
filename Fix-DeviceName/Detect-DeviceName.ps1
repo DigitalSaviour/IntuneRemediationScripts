@@ -4,7 +4,7 @@
 
 try {
     # Set the prefix for the device name (must match remediation script)
-    $prefix = "CCTCBC-"
+    $prefix = "PREFIX-"
 
     # Get the device's serial number
     $serialNumber = (Get-WmiObject -Class Win32_BIOS | Select-Object -ExpandProperty SerialNumber).Trim()
