@@ -6,6 +6,7 @@
 
 # Define the log file location
 $logFile = "C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\Activate-Windows.log"
+$actcode =""
 
 # Function to write output to both console and log file
 function Write-Log {
@@ -24,7 +25,7 @@ Write-Log "Starting Windows activation..."
 
 # Install the product key
 Write-Log "Installing product key..."
-Invoke-Expression "cscript /nologo c:\windows\system32\slmgr.vbs /ipk JKNMX-3WD9G-PGD9V-4DHGT-PDMMQ"
+Invoke-Expression "cscript /nologo c:\windows\system32\slmgr.vbs /ipk $actcode"
 
 # Activate Windows
 Write-Log "Activating Windows..."
@@ -48,3 +49,4 @@ Invoke-Expression "cscript /nologo c:\windows\system32\slmgr.vbs /xpr"
 
 # Log the completion time
 Write-Log "Activation check complete."
+
